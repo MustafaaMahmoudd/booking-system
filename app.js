@@ -9,6 +9,7 @@ app.use(express.json());
 connection();
 
 
+
 app.use(`${api}/hotels`,hotelRouter)
 
 
